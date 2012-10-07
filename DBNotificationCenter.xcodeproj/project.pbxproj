@@ -18,6 +18,9 @@
 		6F27C3A616218EFC00624E78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F27C3A516218EFC00624E78 /* Default-568h@2x.png */; };
 		6F27C3A916218EFC00624E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27C3A816218EFC00624E78 /* ViewController.m */; };
 		6F27C3AC16218EFC00624E78 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F27C3AA16218EFC00624E78 /* ViewController.xib */; };
+		6F27C3B516218FBB00624E78 /* DBNotificationCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27C3B316218FBB00624E78 /* DBNotificationCenterViewController.m */; };
+		6F27C3B91621AB6A00624E78 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F27C3B81621AB6A00624E78 /* NotificationViewController.m */; };
+		6F27C3BB1621AE4700624E78 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F27C3BA1621AE4700624E78 /* NotificationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		6F27C3A716218EFC00624E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F27C3A816218EFC00624E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F27C3AB16218EFC00624E78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6F27C3B216218FBB00624E78 /* DBNotificationCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBNotificationCenterViewController.h; sourceTree = "<group>"; };
+		6F27C3B316218FBB00624E78 /* DBNotificationCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBNotificationCenterViewController.m; sourceTree = "<group>"; };
+		6F27C3B71621AB6A00624E78 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		6F27C3B81621AB6A00624E78 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		6F27C3BA1621AE4700624E78 /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationViewController.xib; path = ../NotificationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				6F27C3A716218EFC00624E78 /* ViewController.h */,
 				6F27C3A816218EFC00624E78 /* ViewController.m */,
 				6F27C3AA16218EFC00624E78 /* ViewController.xib */,
+				6F27C3B216218FBB00624E78 /* DBNotificationCenterViewController.h */,
+				6F27C3B316218FBB00624E78 /* DBNotificationCenterViewController.m */,
+				6F27C3B71621AB6A00624E78 /* NotificationViewController.h */,
+				6F27C3B81621AB6A00624E78 /* NotificationViewController.m */,
+				6F27C3BA1621AE4700624E78 /* NotificationViewController.xib */,
 				6F27C39616218EFC00624E78 /* Supporting Files */,
 			);
 			path = DBNotificationCenter;
@@ -163,6 +176,7 @@
 				6F27C3A416218EFC00624E78 /* Default@2x.png in Resources */,
 				6F27C3A616218EFC00624E78 /* Default-568h@2x.png in Resources */,
 				6F27C3AC16218EFC00624E78 /* ViewController.xib in Resources */,
+				6F27C3BB1621AE4700624E78 /* NotificationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +190,8 @@
 				6F27C39C16218EFC00624E78 /* main.m in Sources */,
 				6F27C3A016218EFC00624E78 /* AppDelegate.m in Sources */,
 				6F27C3A916218EFC00624E78 /* ViewController.m in Sources */,
+				6F27C3B516218FBB00624E78 /* DBNotificationCenterViewController.m in Sources */,
+				6F27C3B91621AB6A00624E78 /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

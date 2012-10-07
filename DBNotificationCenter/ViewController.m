@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NotificationViewController.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NotificationViewController *notif = [[NotificationViewController alloc] initWithNibName:@"NotificationViewController" bundle:nil];
+    [notif setIsSlideActionAvailable:YES];
+    [self.view addSubview:notif.view];
 }
 
 - (void)didReceiveMemoryWarning
